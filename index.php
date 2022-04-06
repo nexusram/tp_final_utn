@@ -11,7 +11,7 @@ ini_set('display_startup_errors', 1);
 	use Config\Request 	as Request;
 	Autoload::start();
 	session_start();
-   
+   ///test
 	require_once(VIEWS_PATH."header.php");
 
 	Router::Route(new Request());
